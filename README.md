@@ -2,6 +2,8 @@
 
 A 2D platformer game inspired by Super Mario Bros, built with Kaboom.js and running in modern browsers.
 
+This app is the result of my first time doing Code Vibing wiht Cursor
+
 ## Features
 
 ✅ **Complete Game Experience**
