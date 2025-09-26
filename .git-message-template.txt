@@ -1,0 +1,28 @@
+# <type>(optional scope): <short summary>
+#   Example: feat(player): add jumping ability
+#
+# Types:
+#   feat     A new feature
+#   fix      A bug fix
+#   docs     Documentation only changes
+#   style    Code style changes (formatting, missing semicolons, etc.)
+#   refactor Code change that neither fixes a bug nor adds a feature
+#   perf     Performance improvement
+#   test     Adding or updating tests
+#   chore    Maintenance tasks (build, deps, configs)
+#
+# Guidelines:
+# - Use imperative mood ("add", not "added" or "adds")
+# - Keep summary under 72 characters
+# - Separate subject from body with a blank line
+# - Body should explain what and why (not how)
+# - One change per commit
+#
+# ---------------- COMMIT MESSAGE FORMAT ----------------
+#
+# <type>(scope): <short summary>
+#
+# <detailed body explaining motivation>
+#
+# BREAKING CHANGE: <description>
+# --------------------------------------------------------
