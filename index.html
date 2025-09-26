@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Mario Bros Inspired Platformer</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #87ceeb 0%, #98fb98 100%);
+        font-family: "Courier New", monospace;
+      }
+
+      canvas {
+        border: 2px solid #333;
+        border-radius: 8px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      }
+
+      #gameContainer {
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gameContainer">
+      <h1>🍄 Super Platformer 🍄</h1>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <!-- Kaboom.js CDN -->
+    <script src="https://unpkg.com/kaboom@3000/dist/kaboom.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

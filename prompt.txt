@@ -1,0 +1,19 @@
+You are my coding assistant. The goal is to create a 2D platformer game inspired by Super Mario Bros that runs in the browser.
+Project requirements
+
+- The game should be a side-scrolling platformer with physics, gravity, and jumping.
+- A player character that can move left, right, and jump.
+- Platforms and obstacles to walk on and interact with.
+- Enemies with simple AI (patrol, react to collisions).
+- Collectibles such as coins or power-ups.
+- A score and lives system displayed on screen.
+- Game states: title screen, active gameplay, game over, and restart.
+- Support for multiple levels.
+- Animations and sounds to make the game feel alive.
+- Runs smoothly in modern browsers.
+
+Notes:
+
+Use Kaboom.js as the main game framework.
+All code, assets, and architecture decisions are to be made by Cursor AI.
+The project should be built incrementally, allowing testing after each major feature.
